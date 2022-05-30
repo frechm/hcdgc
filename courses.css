@@ -80,3 +80,34 @@ a {
     background-color: black;
     opacity: 1;
 }
+
+@media all and (max-width: 640px) {
+    .course {
+        width: 300px;
+        height: 225px;
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-bottom: 1.5em;
+    }
+
+    .image {
+        width: 300px;
+        height: auto;
+        
+        min-height: 183px;
+        max-height: 183px;
+        border-bottom: 2px solid white;
+    }
+    .right-arrow {
+        transform:translate(250px, 50%)
+    }
+
+    .left-arrow {
+        transform:translate(0px, 50%)
+    }
+
+    .course-header {
+        transform:translateY(-15px)
+    }
+        
+}

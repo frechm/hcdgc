@@ -73,9 +73,7 @@ h1 {
 }
 
 @media all and (max-width: 640px) {
-    h1 {
-        font-size: 10px;
-    }
+    
 }
 
 
