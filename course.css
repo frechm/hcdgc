@@ -1,0 +1,59 @@
+.course {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    max-width: 780px;
+    height: auto;
+    border-bottom: 2px solid white;
+}
+
+.right-arrow {
+    cursor: pointer;
+    position: absolute;
+    background-color: #18191A;
+    opacity: 0.5;
+    transform: translate(730px, 200px);
+    height: 100px;
+    width: 50px;
+    color: white;
+}
+
+.right-arrow:hover {
+    background-color: black;
+    opacity: 1;
+}
+
+.left-arrow {
+    cursor: pointer;
+    position: absolute;
+    background-color: #18191A;
+    opacity: 0.5;
+    transform: translate(0, 200px);
+    height: 100px;
+    width: 50px;
+    color: white;
+} 
+
+.left-arrow:hover {
+    background-color: black;
+    opacity: 1;
+}
+
+.course-header {
+    color: white;
+    text-align: center;
+}
+
+
+
+
