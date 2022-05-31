@@ -1,24 +1,36 @@
-.course {
+.images {
     max-width: 780px;
+    max-height: 517.97px;
     margin-left: auto;
     margin-right: auto;
-    
+    display: flex;
+    /* overflow: hidden; */
+    border: 2px solid white;
+    border-radius: 5px;
     margin-bottom: 1.5em;
+    transition: all 1s;
+}
+
+.slider {
+    display: flex;
 }
 
 a {
     text-decoration: none;
 }
 
-.image {
-    max-width: 780px;
-    height: auto;
-    border: 2px solid white;
-    border-radius: 5px;
-
+.slide {
+    width: 780px;
+    height: 517.97;
 }
 
-.right-arrow {
+.slide img {
+    width: 780px;
+    height: 517.97;
+    
+}
+
+.next-slide {
     cursor: pointer;
     position: absolute;
     background-color: #18191A;
@@ -29,12 +41,12 @@ a {
     color: white;
 }
 
-.right-arrow:hover {
+.next-slide:hover {
     background-color: black;
     opacity: 1;
 }
 
-.left-arrow {
+.prev-slide {
     cursor: pointer;
     position: absolute;
     background-color: #18191A;
@@ -45,15 +57,11 @@ a {
     color: white;
 } 
 
-.left-arrow:hover {
+.prev-slide:hover {
     background-color: black;
     opacity: 1;
 }
 
-.course-header {
-    color: white;
-    text-align: center;
-}
 
 
 

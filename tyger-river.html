@@ -7,6 +7,8 @@
     <title>Courses-HCDGC</title>
     <link rel="shortcut icon" href="images/HCDGC.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Teko&display=swap" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="course.css">
     <script src="app.js"></script>
@@ -20,8 +22,8 @@
         </div>
         <nav>
             <div>
-                <a href="events.html">
-                    <button class="navButton">Events</button>
+                <a href="index.html">
+                    <button class="navButton">Home</button>
                 </a>
             </div>
             <div>
@@ -54,10 +56,26 @@
         tee pads to service both professional and casual players. The course utilizes Innova DISCatcher Pro28 targets.
     </p>
 
-    <div class="course">
-        <button id="right-arrow-tr" class="right-arrow">&#8594</button>
-        <button id="left-arrow-tr" class="left-arrow">&#8592</button>
-        <div id="tr-images"></div>
+    <div class="images">
+        <button class="next-slide">&#8594</button>
+        <button class="prev-slide">&#8592</button>
+        <div class="slider">
+            <div class="slide">
+                <img src="images/tyger-river/hole-10.jpg" alt="" >
+            </div>
+            <div class="slide">
+                <img src="images/tyger-river/hole-18.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/tyger-river/tee-off.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/tyger-river/walking-hole-18.jpg" alt="">
+            </div>
+            <div class="slide">
+                <div id='map' class="slide"></div>
+            </div>
+        </div>
     </div>
 
     <p>
@@ -66,5 +84,15 @@
         basket elevated on large rocks. The second signature hole, hole 17, is a 430 ft. double island (510 ft. from the long tee) that also 
         features an elevated basket.
     </p>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWZyZWNoIiwiYSI6ImNsM2ozbHUwNzAxcjgza3BoYWpuNWR2dXIifQ.cWBqr3fm2oL_xXQL4XEpWA';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11'
+        });
+
+
+    </script>
 </body>
 </html>
