@@ -11,6 +11,12 @@
     transition: all 1s;
 }
 
+#map {
+    width: 780px;
+    height:517.97px;
+    overflow: hidden;
+}
+
 .slider {
     display: flex;
 }
@@ -19,18 +25,18 @@ a {
     text-decoration: none;
 }
 
-.slide {
+#tr-images {
     width: 780px;
     height: 517.97;
 }
 
-.slide img {
+.image {
     width: 780px;
     height: 517.97;
     
 }
 
-.next-slide {
+.nextImage {
     cursor: pointer;
     position: absolute;
     background-color: #18191A;
@@ -41,12 +47,12 @@ a {
     color: white;
 }
 
-.next-slide:hover {
+.nextImage:hover {
     background-color: black;
     opacity: 1;
 }
 
-.prev-slide {
+.prevImage {
     cursor: pointer;
     position: absolute;
     background-color: #18191A;
@@ -57,7 +63,7 @@ a {
     color: white;
 } 
 
-.prev-slide:hover {
+.prevImage:hover {
     background-color: black;
     opacity: 1;
 }
