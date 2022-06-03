@@ -68,23 +68,110 @@ a {
     object-fit: contain;
 }
 
-@media all and (max-width: 700px) {
+
+@media all and (max-width: 780px) {
     .images {
-        width: 300px;
-        height: 199.22px;
+        max-width: 550px;
+        max-height: 363px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-bottom: 1.5em;
     }
     .image {
-        width: 300px;
-        height: 199.22px;
+        width: 550px;
+        height: 363px;
     }
     .nextImage {
-        transform: translate(250px, 50px)
+        cursor: pointer;
+        position: absolute;
+        background-color: #18191A;
+        opacity: 0.5;
+        transform: translate(500px, 130px);
+        height: 100px;
+        width: 50px;
+        color: white;
     }
+
+    .nextImage:hover {
+        background-color: black;
+        opacity: 1;
+    }
+
     .prevImage {
-        transform: translate(0px, 50px)
+        cursor: pointer;
+        position: absolute;
+        background-color: #18191A;
+        opacity: 0.5;
+        transform: translate(0, 130px);
+        height: 100px;
+        width: 50px;
+        color: white;
+    } 
+
+    .prevImage:hover {
+        background-color: black;
+        opacity: 1;
+    }
+    .vertical {
+        object-fit: contain;
     }
 }
 
+@media all and (max-width: 600px){
+    .images {
+        max-width: 300px;
+        max-height: 198px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        
+        border: 2px solid white;
+        border-radius: 5px;
+        margin-bottom: 1.5em;
+    }
+    .image {
+        width: 300px;
+        height: 198px;
+    }
+    .nextImage {
+        cursor: pointer;
+        position: absolute;
+        background-color: #18191A;
+        opacity: 0.5;
+        transform: translate(250px, 50px);
+        height: 100px;
+        width: 50px;
+        color: white;
+    }
+
+    .nextImage:hover {
+        background-color: black;
+        opacity: 1;
+    }
+
+    .prevImage {
+        cursor: pointer;
+        position: absolute;
+        background-color: #18191A;
+        opacity: 0.5;
+        transform: translate(0, 50px);
+        height: 100px;
+        width: 50px;
+        color: white;
+    } 
+
+    .prevImage:hover {
+        background-color: black;
+        opacity: 1;
+    }
+    .vertical {
+        object-fit: contain;
+    }
+}
 
 
 
