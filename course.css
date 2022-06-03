@@ -64,6 +64,9 @@ a {
     background-color: black;
     opacity: 1;
 }
+.vertical {
+    object-fit: contain;
+}
 
 
 
