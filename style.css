@@ -77,9 +77,34 @@ h1 {
 
 @media all and (max-width: 640px) {
     h1 {
-     font-size: 45px;   
-     }
+        font-size: 45px;   
+    }
 
+}
+
+@media all and (max-width: 475px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    h1 {
+        font-size: 25px;
+    }
+    #logo {
+        width: 260px;
+        height: auto;
+    }
+    .nav {
+        width: 245px;
+    }
 }
 
 #h-img {
@@ -102,10 +127,12 @@ h1 {
     margin-right: auto;
     text-decoration: underline;
 }
+
 footer {
     display: flex;
     flex-direction: row;
 }
+
 .footer-link {
     
     color: white;
@@ -113,6 +140,7 @@ footer {
     justify-content: center;
 
 }
+
 .footer-social {
     color: white;
     justify-content: flex-end;
@@ -123,6 +151,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 ul {
     max-width: 780px;
     margin-left: auto;
@@ -134,6 +163,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .navCourse {
     display: flex;
     flex-direction: column;
