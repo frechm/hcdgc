@@ -202,3 +202,27 @@ a:hover {
 .map {
     width: 500px;
 }
+
+#membership-button {
+    width: 100px;
+    height: auto;
+}
+
+#facebook-blue {
+    width: 80px;
+    height: auto;
+}
+
+#youtube {
+    width: 110px;
+    height: auto;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
