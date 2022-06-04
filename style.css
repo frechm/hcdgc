@@ -76,11 +76,9 @@ h1 {
 }
 
 @media all and (max-width: 640px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    h1 {
+     font-size: 45px;   
+     }
 
 }
 
