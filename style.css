@@ -128,24 +128,6 @@ h1 {
     text-decoration: underline;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-link {
-    
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-
-}
-
-.footer-social {
-    color: white;
-    justify-content: flex-end;
-}
-
 p {
     max-width: 780px;
     margin-left: auto;
