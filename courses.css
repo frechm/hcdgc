@@ -5,31 +5,31 @@
     flex-wrap: wrap;
     margin: auto;
 }
+.images {
+    display: flex;
+    overflow: hidden;
+}
 
 a {
     text-decoration: none;
 }
 
-.course {
-    overflow: hidden;
-}
+
 
 .vertical {
     object-fit: contain;
 }
 
-#map {
+/* #map {
     border: 0;
-}
+} */
 
 .image {
     width: 400px;
     height: auto;
-    
     min-height: 265px;
     max-height: 265px;
     border-bottom: 2px solid white;
-    overflow: hidden;
 }
 
 .course {
@@ -38,6 +38,7 @@ a {
     border: 2px solid white;
     border-radius: 5px;
     margin-bottom: 1.5em;
+    
     
 }
 
