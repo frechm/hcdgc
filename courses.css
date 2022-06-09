@@ -10,10 +10,7 @@ a {
     text-decoration: none;
 }
 
-.course-images {
-    width: 400px;
-    display: flex;
-    align-items: center;
+.course {
     overflow: hidden;
 }
 
@@ -28,6 +25,7 @@ a {
     min-height: 265px;
     max-height: 265px;
     border-bottom: 2px solid white;
+    overflow: hidden;
 }
 
 .course {
