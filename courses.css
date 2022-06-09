@@ -18,6 +18,10 @@ a {
     object-fit: contain;
 }
 
+#map {
+    border: 0;
+}
+
 .image {
     width: 400px;
     height: auto;
