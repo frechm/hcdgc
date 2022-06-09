@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     img4.classList.add("image");
     
     let map1 = document.getElementById("map")
-    map1.classList.add("image");
+   
     
 
     const trImageArray = [img1, img2, img3, img4, map1]
