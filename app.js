@@ -23,8 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
     img4.src = "images/tyger-river/walking-hole-18.jpg";
     img4.classList.add("image");
     
+    let map1 = document.getElementById("map")
+    map1.classList.add("image");
+    
 
-    const trImageArray = [img1, img2, img3, img4]
+    const trImageArray = [img1, img2, img3, img4, map1]
     
     //setup the image div
     
